@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/amco"
+    "url": "https://github.com/jameswomack/current"
   },
   "bugs": {
-    "url": "http://github.com/amco"
+    "url": "https://github.com/jameswomack/current/issues"
   },
   "engines": [
     "node >= 0.4"
