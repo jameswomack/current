@@ -1,0 +1,38 @@
+{
+  "name": "current",
+  "description": "Easily consume a Google Plus user's activity feed.",
+  "tags": [
+    "http",
+    "REST",
+    "util",
+    "utility",
+    "google"
+  ],
+  "version": "0.1",
+  "author": {
+    "name": "James Womack",
+    "email": "jamesw@amcoonline.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amco"
+  },
+  "bugs": {
+    "url": "http://github.com/amco"
+  },
+  "engines": [
+    "node >= 0.4"
+  ],
+  "main": "./main",
+  "_id": "current@0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "request": "2.9"
+  },
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.12",
+  "_nodeVersion": "v0.6.13",
+  "_defaultsLoaded": true,
+  "_from": "current@0.1"
+}
