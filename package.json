@@ -8,7 +8,7 @@
     "utility",
     "google"
   ],
-  "version": "0.1",
+  "version": "0.1.0",
   "author": {
     "name": "James Womack",
     "email": "jamesw@amcoonline.net"
@@ -21,13 +21,13 @@
     "url": "https://github.com/jameswomack/current/issues"
   },
   "engines": [
-    "node >= 0.4"
+    "node >= 0.4.0"
   ],
   "main": "./main",
-  "_id": "current@0.1",
+  "_id": "current@0.1.0",
   "dependencies": {},
   "devDependencies": {
-    "request": "2.9"
+    "request": "2.9.1"
   },
   "optionalDependencies": {},
   "_engineSupported": true,
