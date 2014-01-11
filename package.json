@@ -1,17 +1,10 @@
 {
   "name": "current",
   "description": "Easily consume a Google Plus user's activity feed.",
-  "tags": [
-    "http",
-    "REST",
-    "util",
-    "utility",
-    "google"
-  ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "James Womack",
-    "email": "jamesw@amcoonline.net"
+    "email": "james@nblgstr.com"
   },
   "repository": {
     "type": "git",
@@ -23,16 +16,27 @@
   "engines": [
     "node >= 0.4.0"
   ],
-  "main": "./main",
-  "_id": "current@0.1.0",
-  "dependencies": {},
-  "devDependencies": {
+  "main": "./index",
+  "dependencies": {
     "request": "2.9.1"
   },
-  "optionalDependencies": {},
-  "_engineSupported": true,
-  "_npmVersion": "1.1.12",
-  "_nodeVersion": "v0.6.13",
-  "_defaultsLoaded": true,
-  "_from": "current@0.1"
+  "keywords": [
+    "jameswomack",
+    "James Womack",
+    "google",
+    "google plus",
+    "social",
+    "media",
+    "activity",
+    "feed",
+    "g plus",
+    "http",
+    "REST",
+    "request",
+    "util",
+    "utility"
+  ],
+  "devDependencies": {
+    "express": "~3.4.7"
+  }
 }
