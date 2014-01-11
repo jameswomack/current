@@ -6,7 +6,7 @@
 var express = require('express');
 var app = express();
 
-var Current = require('./index');
+var Current = require('current');
 var googleAPIKey = process.env.GOOGLE_API_KEY;
 
 app.get('/current/:id', function(req, res) {
@@ -17,7 +17,8 @@ app.listen(process.env.DEFAULT_WEB_PORT || 3000);
 ```
 
 ### Testing
-* Grab a Google Plus API key and export it in your shell profile to `GOOGLE_API_KEY` to run `test/test.js`
+* Grab a Google Plus API key and export it in your shell profile to `GOOGLE_API_KEY`
+* Run `node test/test.js` from `node_modules/current`
 * Go to http://localhost:3000/current/107535466191092977603 (or use another user's ID) in your browser 
 
 ### Production
