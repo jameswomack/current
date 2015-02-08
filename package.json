@@ -1,7 +1,7 @@
 {
   "name": "current",
   "description": "Easily consume a Google Plus user's activity feed.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": {
     "name": "James Womack",
     "email": "james@nblgstr.com"
